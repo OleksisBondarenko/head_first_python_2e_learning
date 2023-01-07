@@ -16,6 +16,6 @@ for i in range(5):
   else:
     print("Not an odd minute")
   
-  nprint("This minute is {minute}".format(minute=right_this_minute))
+  print("This minute is {minute}".format(minute=right_this_minute))
   wait_time = randint(0, 60)
   time.sleep(wait_time)
