@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h2 class="message-result-title">Incredible result</h2>
+
+<div class="center">
+  <table>
+    <tbody>
+    <tr>
+      <td >Searched phrase: </td>
+      <td >{{ phrase }}</td>
+    </tr>
+    <tr>
+      <td >Letters to search: </td>
+      <td >{{ letters }}</td>
+    </tr>
+    <tr>
+      <td >Found letters: </td>
+      <td >{{ found_letters }}</td>
+    </tr>
+  </tbody>
+ </table>
+</div>
+<div class="center button-back">
+  <a href="/">
+    <button> back to searching</button>
+  </a>
+</div>
+{% endblock %} 

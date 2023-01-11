@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h1>Enter phrase and letters to get your result</h1>
+
+<form method="post" action="result">
+  <div class="center">
+
+    <table > 
+      <tbody>
+        <tr>
+          <td><label for="phrase">Phrase to search: </label>
+          </td>
+        <td><input name="phrase" id="phrase">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="letters">Letters to compare: </label>
+        </td>
+        <td>
+          <input name="letters" id="letters" value="aeuio">
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+  
+<div class="center">
+  <p class="message-ready ">When you are ready click this button.</p>
+
+  <input type="submit" value="Do it!">
+</div>
+</form>
+{% endblock %}

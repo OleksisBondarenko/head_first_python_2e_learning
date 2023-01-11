@@ -1,0 +1,41 @@
+h1 {
+  text-align: center;
+}
+
+body {
+  color: white;
+  background-color: #939393;
+}
+
+tbody tr td {
+  border: black 1px solid;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 768px;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.message-ready {
+  margin-right: 10px;
+}
+
+.message-result-title {
+  text-align: center;
+}
+
+.button-back {
+  padding-top: 10px;
+}
